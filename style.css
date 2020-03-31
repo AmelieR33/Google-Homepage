@@ -9,7 +9,7 @@ src: local('Product Sans Regular'), url('Google_Sans/ProductSans-Regular.woff') 
 font-family: 'Product Sans Light Regular';
 font-style: normal;
 font-weight: normal;
-src: local('Product Sans Light Regular'), url('Google_Sans/ProductSans-Light.woff') format('woff');
+src: local('Product Sans Light Regular'), url('ProductSans-Light.woff') format('woff');
 }
 
 *
