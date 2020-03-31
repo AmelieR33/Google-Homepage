@@ -1,0 +1,186 @@
+@font-face {
+font-family: 'Product Sans Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Product Sans Regular'), url('Google_Sans/ProductSans-Regular.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Product Sans Light Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Product Sans Light Regular'), url('Google_Sans/ProductSans-Light.woff') format('woff');
+}
+
+*
+{
+	font-family: 'Product Sans Light Regular', 'Arial';
+}
+
+/* Top */
+/* === */
+
+.toolbar
+{
+	display: flex;
+	justify-content: space-between;
+	width: 12.5%;
+	position: absolute; right: 25px;
+	align-items: center;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+	color: #2B2C2D;
+}
+
+#square
+{
+	height: 28px;
+}
+
+#A_mini
+{
+	height: 40px;
+}
+
+#logo
+{
+  display: flex;
+  position: absolute; top: 23%; left: 41%;
+}
+
+
+/* Middle */
+/* ====== */
+
+#search
+{
+  display: flex;
+  position: absolute; top: 40%; left: 31%;
+  text-align: center;
+  justify-content: center;
+  background-color: white;
+  border: 1px;
+  border-style: solid;
+  border-color: lightgrey;
+  border-radius: 25px;
+  width: 40%;
+  height: 6%;
+  background: url(loupe2.png) no-repeat left;
+}
+
+#search:hover
+{
+  box-shadow: 1px 1px 6px lightgrey;
+}
+
+.buttons
+{
+  display: flex;
+  position: absolute; top: 50%; left: 40%;
+  justify-content: space-between;
+  width: 20%;
+}
+
+input
+{
+  width: 150px;
+  height: 38px;
+  font-size: 17px;
+  border: none;
+  background-color: #F4F4F4;
+  color: #444546;
+  border-radius: 5px;
+}
+
+input:hover
+{
+  border: solid silver 1px;
+  color: black;
+}
+
+#message
+{
+  display: flex;
+  flex-direction: row; 
+  position: absolute; top: 58%; left: 38%;
+  justify-content: space-between;
+  width: 25%;
+  align-items: center;
+}
+
+#main
+{
+  width: 10%;
+  height: 10%;
+}
+
+#gestes
+{
+  color: #0D1498;
+}
+
+#gestes:active
+{
+  color: #5F247E;
+}
+
+/* Bottom */
+/* ====== */
+
+#France
+{
+  display: flex;
+  flex-direction: row;
+  position: absolute; bottom: 7%;
+  background-color: #F2F2F2;
+  color: #444546;
+  border: 0.5px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: lightgrey;
+  width: 97%;
+  height: 6%;
+  padding-left: 25px;
+}
+
+#infos
+{
+  display: flex;
+  flex-direction: row;
+  position: absolute; bottom: 0%;
+  background-color: #F2F2F2;
+  color: #444546;
+  width: 99%;
+  height: 7%;
+}
+
+a
+{
+  color: #444546;
+}
+
+#bloc1
+{
+  display: flex;
+  justify-content: space-between;
+  width: 47%;
+  padding-left: 25px;
+  padding-right: 270px;
+}
+
+#bloc2
+{
+  display: flex;
+  justify-content: space-between;
+  width: 47%;
+  padding-left: 60px;
+  padding-right: 25px;
+}
